@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap');
+:root {
+  --lila-principal: #a855f7;
+  --lila-fondo: #f3e8ff;
+  --lila-tarjeta: #ffffff;
+  --lila-texto: #4c1d95;
+  --lila-hover: #9333ea;
+}
+
+body {
+  background-color: var(--lila-fondo);
+  color: var(--lila-texto);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+.card-container {
+  background-color: var(--lila-tarjeta);
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(168, 85, 247, 0.15);
+  padding: 2rem;
+  max-width: 500px;
+  margin: 3rem auto;
+  border: 1px solid #e9d5ff;
+}
+
+
+.btn-lila {
+  background-color: var(--lila-principal);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-lila:hover {
+  background-color: var(--lila-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(147, 51, 234, 0.3);
+}
+
+
+input[type="text"], input[type="email"], input[type="password"] {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #d8b4fe;
+  border-radius: 8px;
+  outline: none;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+}
+
+input:focus {
+  border-color: var(--lila-principal);
+  box-shadow: 0 0 0 3px rgba(168, 85, 247, 0.2);
+}
